@@ -1,0 +1,130 @@
+/* --- Hero Section --- */
+#hero {
+  position: relative;
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('images/uttarakhand.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-text .btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  background: linear-gradient(to right, blue, aqua);
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+
+.hero-text .btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right,blue, aqua);
+}
+
+/* --- Destinations Section --- */
+.destinations {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateX(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* --- Cultural Section --- */
+.culture {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.culture-item {
+  background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+  transition: transform 0.3s;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.culture-item:hover {
+  transform: scale(1.03);
+}
+
+/* --- Contact Form --- */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact input, 
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.contact input:focus, .contact textarea:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 5px #4caf50;
+  outline: none;
+}
+
+.contact button {
+  background: linear-gradient(to right, #4caf50, #81c784);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #66bb6a, #4caf50);
+}
+
+/* --- Footer --- */
+footer {
+  background: linear-gradient(to right, #333, #444);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
